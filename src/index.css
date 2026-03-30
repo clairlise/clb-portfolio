@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-slate-50 text-slate-800;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-6 py-20 max-w-6xl mx-auto;
+  }
+}
