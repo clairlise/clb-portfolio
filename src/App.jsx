@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import CaseStudies from './components/CaseStudies'
@@ -14,6 +15,7 @@ export default function App() {
         <AIExpertise />
         <Contact />
       </main>
+      <Analytics />
     </div>
   )
 }
